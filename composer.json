@@ -1,0 +1,34 @@
+{
+    "name": "elephantsgroup/eg-stat",
+    "description": "Yii2 elephantsGroup statistics library",
+    "keywords": ["yii", "yii2", "extension", "elephantsGroup", "statistics"],
+    "homepage": "http://elephantsgroup.com",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalal Jaberi",
+            "email": "proodoo@gmail.com"
+        },
+        {
+            "name": "Arezou Zahedi Majd",
+            "email": "arezoumajd@gmail.com"
+        },
+        {
+            "name": "Arvin Firouzi",
+            "email": "arvin.firouzi@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.0",
+        "elephantsgroup/eg-base": "~1"
+    },
+    "config": {
+        "process-timeout": 1500,
+        "secure-http": false
+    },
+    "autoload": {
+        "psr-4": { "elephantsGroup\\stat\\": "" }
+    }
+}
