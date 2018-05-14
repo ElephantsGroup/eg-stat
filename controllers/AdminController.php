@@ -10,7 +10,7 @@ use elephantsGroup\stat\models\StatSearch;
 use elephantsGroup\base\EGController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use hoomanMirghasemi\jdf\Jdf;
+use elephantsGroup\jdf\Jdf;
 
 /**
  * StatController implements the CRUD actions for Stat model.

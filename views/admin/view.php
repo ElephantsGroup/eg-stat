@@ -3,8 +3,8 @@
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 use elephantsGroup\stat\models\Stat;
-use hoomanMirghasemi\jdf\Jdf;
-use dektrium\user\models\User;
+use elephantsGroup\jdf\Jdf;
+use elephantsGroup\user\models\User;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\News */

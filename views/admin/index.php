@@ -3,8 +3,8 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use elephantsgroup\stat\models\Stat;
-use hoomanMirghasemi\jdf\Jdf;
-use dektrium\user\models\User;
+use elephantsGroup\jdf\Jdf;
+use elephantsGroup\user\models\User;
 use yii\helpers\ArrayHelper;
 
 /* @var $this yii\web\View */
