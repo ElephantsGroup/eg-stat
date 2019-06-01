@@ -19,10 +19,11 @@
             "email": "arvin.firouzi@yahoo.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.0",
-        "elephantsgroup/eg-base": "~1"
+        "elephantsgroup/eg-base": "dev-master"
     },
     "config": {
         "process-timeout": 1500,
